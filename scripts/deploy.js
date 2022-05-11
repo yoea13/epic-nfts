@@ -1,7 +1,8 @@
 // npx hardhat run scripts/deploy.js --network mumbai
 // https://mumbai.polygonscan.com/
 // https://testnets.opensea.io/
-
+//
+// npx hardhat run scripts/deploy.js --network rinkeby
 
 const main = async () => {
   const nftContractFactory = await hre.ethers.getContractFactory('MyEpicNFT');
